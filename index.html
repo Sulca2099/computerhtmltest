@@ -81,12 +81,13 @@
         font-family: 'Courier New', Courier, monospace;
 
     }
-    .bodythe{
+    .bodythe::before{
         background-image: url(Grass_public_domain.JPG);
         position: sticky;
+        z-index:-1;
         /*copied from source*/
         min-height: 500px;
-
+    
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
