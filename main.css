@@ -1,3 +1,7 @@
+:root{
+        --button-on-state:polygon(0%,50%,50%,100%,50%,0%);
+        --button-off-state:polygon(100%,100%,50%,50%,0%,100%,50%,25%);;
+}
 img{
         border-radius:15px;
         animation: img_animation linear forward;
@@ -44,4 +48,20 @@ img{
         background-size: cover;
         /*end*/
         
+}
+#button{
+        color:rgba(0,0,0,1);
+}
+#button.on{
+        clip-path:polygon(0%,50%,50%,100%,50%,0%);
+}
+#button.off{
+        clip-path:polygon(100%,100%,50%,50%,0%,100%,50%,25%);
+}
+@keyframes button_animation{
+        0% {clip-path:--button-on-state}
+        25% {clip-path:--button-on-state; color:rgba(0,0,0,.5);}
+        50% {clip-path:--button-off-state; color:rgba(0,0,0,0);}
+        75% {clip-path:--button-off-state; color:rgba(0,0,0,.5);}
+        100% {clip-path:--button-off-state; color:rgba(0,0,0,1);}
 }
