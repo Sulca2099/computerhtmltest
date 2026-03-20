@@ -18,7 +18,7 @@ img{
         background-color: rgba(255,255,255,0);
         background-position-x: 0%;
         border-radius:15px;
-        z-index:100%;
+        z-index:9999;
         position: sticky;
         top:0;
         backdrop-filter: blur(8px);
