@@ -13,7 +13,7 @@
 .topbar:hover {
         backdrop-filter: blur(16px);
 }
-.body{
+#body{
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
 
