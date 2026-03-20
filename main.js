@@ -1,4 +1,4 @@
 function darkMode(){
-  document.getElementById()
+  document.getElementById('bodythe')
   return 0;
 }
