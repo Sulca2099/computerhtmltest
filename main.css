@@ -1,5 +1,14 @@
 img{
         border-radius:15px;
+        animation: img_animation linear forward;
+        animation-duration:auto;
+        animation-timeline:view();
+        animation-range: entry 0% cover 50% exit 100%;
+}
+@keyframes img_animation{
+        0% {filter:blur(100px);}
+        50% {filter:blur(0px);}
+        100% {filter:blur(100px);}
 }
 #topbar{
         background-color: rgba(255,255,255,0);
