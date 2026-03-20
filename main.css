@@ -9,16 +9,16 @@
         background-size: cover;
         transition-property: backdrop-filter 1s ease;
         
-    }
-    .topbar:hover {
+}
+.topbar:hover {
         backdrop-filter: blur(16px);
-    }
-    .body{
+}
+.body{
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
 
-    }
-    .bodythe{
+}
+.bodythe{
         background-image: url(Grass_public_domain.JPG);
         position: sticky;
         /*copied from source*/
@@ -31,4 +31,4 @@
         background-size: cover;
         /*end*/
         
-    }
+}
