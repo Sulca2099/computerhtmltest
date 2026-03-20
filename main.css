@@ -18,7 +18,7 @@
         font-family: 'Courier New', Courier, monospace;
 
 }
-.bodythe{
+#bodythe{
         background-image: url(Grass_public_domain.JPG);
         position: sticky;
         /*copied from source*/
