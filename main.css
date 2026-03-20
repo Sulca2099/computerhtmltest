@@ -13,6 +13,7 @@ img{
 #topbar{
         background-color: rgba(255,255,255,0);
         background-position-x: 0%;
+        border-radius:15px;
         position: sticky;
         top:0;
         backdrop-filter: blur(8px);
