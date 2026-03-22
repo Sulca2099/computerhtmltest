@@ -1,6 +1,6 @@
-function darkMode(){
+function darkModeToggle(){
   const page document.getElementById('bodythe');
-  page.style.color='rgb(255,255,255)';
+  page.style.color = (page.style.color=='rgb(0,0,0)') ? 'rgb(255,255,255)' : 'rgb(0,0,0)';
   
   return 0;
 }
