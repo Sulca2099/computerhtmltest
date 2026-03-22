@@ -59,6 +59,10 @@ img{
 #button.off{
         clip-path:polygon(100%,100%,50%,50%,0%,100%,50%,25%);
 }
+@keyframes topbar_shrink{
+        0%{width:100vw; height:10vh;}
+        100%{width:50vw; height:5vh;}
+}
 @keyframes button_animation{
         0% {clip-path:--button-on-state}
         25% {clip-path:--button-on-state; color:rgba(0,0,0,.5);}
