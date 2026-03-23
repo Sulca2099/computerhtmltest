@@ -42,7 +42,7 @@ img:hover{
 
 }
 #bodythe{
-        background-image: url(Grass_public_domain.JPG);
+        background-image: url(/Assets/Grass_public_domain.JPG);
         position: sticky;
         /*copied from source*/
         min-height: 500px;
