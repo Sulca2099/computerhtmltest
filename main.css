@@ -9,6 +9,9 @@ img{
         animation-timeline:view();
         animation-range: entry 0% cover 50% exit 100%;
 }
+img:hover{
+        filter:blur(3px);
+}
 @keyframes img_animation{
         0% {filter:blur(100px);}
         50% {filter:blur(0px);}
