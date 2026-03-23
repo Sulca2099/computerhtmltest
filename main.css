@@ -52,6 +52,7 @@ img{
 }
 #button{
         color:rgba(0,0,0,1);
+        margin-left:0%;
 }
 #button.on{
         clip-path:polygon(0%,50%,50%,100%,50%,0%);
