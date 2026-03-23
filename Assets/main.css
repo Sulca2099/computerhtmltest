@@ -12,6 +12,12 @@ img{
 img:hover{
         filter:blur(3px);
 }
+showmeblog{
+        width:10%;
+        height:25%
+        background-color:rgba(0,0,0,0);
+        backdrop-filter:blur(12px);
+}
 @keyframes img_animation{
         0% {filter:blur(100px);}
         50% {filter:blur(0px);}
