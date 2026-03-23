@@ -70,3 +70,4 @@ img{
         75% {clip-path:--button-off-state; color:rgba(0,0,0,.5);}
         100% {clip-path:--button-off-state; color:rgba(0,0,0,1);}
 }
+#dynamic-favicon{}
