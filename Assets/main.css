@@ -1,7 +1,7 @@
-:root{
+/*:root{
         --button-on-state:polygon(0%,50%,50%,100%,50%,0%);
         --button-off-state:polygon(100%,100%,50%,50%,0%,100%,50%,25%);;
-}
+}*//*debug*/
 img{
         border-radius:15px;
         animation: img_animation linear forward;
