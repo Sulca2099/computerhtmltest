@@ -15,7 +15,7 @@ img:hover{
 showmeblog{
         width:10%;
         height:25%
-        background-color:rgba(0,0,0,0);
+        /*background-color:rgba(0,0,0,0);*/
         backdrop-filter:blur(12px);
 }
 @keyframes img_animation{
