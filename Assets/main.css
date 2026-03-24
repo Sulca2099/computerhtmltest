@@ -37,7 +37,7 @@ showmeblog{
         transition-property: backdrop-filter 1s ease;
         
 }
-.topbar:hover {
+#topbar:hover {
         backdrop-filter: blur(16px);
 }
 #body{
