@@ -12,7 +12,7 @@ img{
 img:hover{
         filter:blur(3px);
 }
-.showmeblog{
+showmeblog{
         width:10%;
         height:25%;
         /*background-color:rgba(0,0,0,0);*/
