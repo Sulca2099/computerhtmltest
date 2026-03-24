@@ -43,7 +43,7 @@ showmeblog{
 #body{
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
-        color:rgba(0,0,0,.4);
+        /*color:rgba(0,0,0,.4);*/
         backdrop-filter:invert();
 
 }
