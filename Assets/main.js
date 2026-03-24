@@ -1,3 +1,4 @@
+alert("The quick brownfox jumped over the lazy dog")
 function darkModeToggle(){
   const page document.getElementById('bodythe');
   alert('Dark mode on');
